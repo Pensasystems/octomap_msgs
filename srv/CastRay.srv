@@ -1,0 +1,9 @@
+# ref: https://octomap.github.io/octomap/doc/classoctomap_1_1OccupancyOcTreeBase.html#afc368d6ff93f40ee33eca3df0b8d1967
+
+geometry_msgs/Point origin
+geometry_msgs/Vector3 direction
+float64 max_range
+bool ignore_unknown_cells
+---
+geometry_msgs/Point first_cell   # the first non-free cell
+bool occupied                    # occuped != unknown
