@@ -1,0 +1,4 @@
+float32 dilation_amt
+---
+octomap_msgs/Octomap map
+bool success
