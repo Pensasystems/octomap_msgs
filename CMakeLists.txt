@@ -12,7 +12,7 @@ add_message_files(
 
 add_service_files(
   DIRECTORY srv
-  FILES GetOctomap.srv BoundingBoxQuery.srv CastRay.srv SearchNode.srv GetDilatedMap.srv
+  FILES GetOctomap.srv BoundingBoxQuery.srv CastRay.srv SearchNode.srv GetDilatedMap.srv SetString.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs nav_msgs)
